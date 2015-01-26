@@ -9,6 +9,8 @@ platform:
 before_build:
   - set PATH=C:\Program Files (x86)\MSBuild\12.0\Bin;%PATH%
 
+build:
+  parallel: true
 #build_script:
 #  - msbuild "cppcheck.sln" /m
 
